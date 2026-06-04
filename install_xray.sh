@@ -42,10 +42,10 @@ cat > /usr/local/etc/xray/config.json << 'EOF'
         "network": "ws",
         "security": "tls",
         "wsSettings": {
-          "path": "/discord"
+          "path": "/ekb"
         },
         "tlsSettings": {
-          "serverName": "discord.com",
+          "serverName": "ekb.eg",
           "alpn": ["http/1.1"],
           "certificates": [
             {
