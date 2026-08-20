@@ -45,7 +45,7 @@ cat > /usr/local/etc/xray/config.json << 'EOF'
           "path": "/discord"
         },
         "tlsSettings": {
-          "serverName": "digital.gov.eg",
+          "serverName": "discord.com",
           "alpn": ["http/1.1"],
           "certificates": [
             {
